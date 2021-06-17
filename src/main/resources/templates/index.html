@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring + AJAX 檔案上傳下載</title>
+    <script th:src="@{/webjars/jquery/3.6.0/jquery.min.js}"></script>
+    <script th:src="@{/index.js}"></script>
+<body>
+<form id="form">
+    <input id="file" name="file" type="file">
+    <br>
+    <button type="button" onclick="sendRequest()">上傳</button>
+</form>
+</body>
+</html>
